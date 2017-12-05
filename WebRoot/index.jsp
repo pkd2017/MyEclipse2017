@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
@@ -37,5 +37,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     		<td>1</td>
     	</tr>
     </table>
+    <h1>修改内容，更新GitHub测试！</h1>
   </body>
 </html>
